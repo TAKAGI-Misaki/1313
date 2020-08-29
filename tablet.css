@@ -66,163 +66,34 @@
     margin-right: -7px;
 }
 
-.one {
+.one,.two,.three,.four   {
     width: 150px;
     height: 200px;
-    background-image: url("img/1.png");
-    background-size: cover;
     display: inline-block;
 }
 
-.one-top {
+.one-top,.two-top,.three-top,.four-top {
     width: 150px;
     height: 200px;
-    background-image: url("img/1-top.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.two {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/3.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.two-top {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/3-top.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.three {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/5.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.three-top {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/5-top.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.four {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/6.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.four-top {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/6-top.png");
-    background-size: cover;
     display: inline-block;
 }
 
 
-.one-shampoo {
+.one-shampoo,.two-shampoo,.three-shampoo,.four-shampoo {
     width: 150px;
     height: 200px;
-    background-image: url("img/1-shampoo.png");
-    background-size: cover;
     display: inline-block;
 }
 
-.two-shampoo {
+.one-color,.two-color,.three-color,.four-color {
     width: 150px;
     height: 200px;
-    background-image: url("img/3-shampoo.png");
-    background-size: cover;
     display: inline-block;
 }
 
-.three-shampoo {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/5-shampoo.png");
-    background-size: cover;
-    display: inline-block;
-}
 
-.four-shampoo {
+.one-reserve,.two-reserve,.three-reserve,.four-reserve {
     width: 150px;
     height: 200px;
-    background-image: url("img/6-shampoo.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.one-color {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/1-color.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.two-color {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/3-color.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.three-color{
-    width: 150px;
-    height: 200px;
-    background-image: url("img/5-color.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.four-color {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/6-color.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.one-reserve {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/1-reserve.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.two-reserve {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/3-reserve.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.three-reserve{
-    width: 150px;
-    height: 200px;
-    background-image: url("img/5-reserveb.png");
-    background-size: cover;
-    display: inline-block;
-}
-
-.four-reserve {
-    width: 150px;
-    height: 200px;
-    background-image: url("img/6-reserve.png");
-    background-size: cover;
     display: inline-block;
 }
