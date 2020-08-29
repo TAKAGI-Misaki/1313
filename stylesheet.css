@@ -1,0 +1,303 @@
+@charset "UTF-8";
+@import url("tablet.css");
+body {
+    background-color: #f6f4e6;
+}
+
+h1 {
+    font-family: "Avenir Next";
+    font-weight: Medium;
+    font-size: 100px;
+    line-height: 1px;
+}
+
+p {
+    font-family: "游ゴシック体";
+    letter-spacing: .1em;
+    line-height: 1px;
+}
+
+a {
+    color: #090909;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+.fa-instagram,.fa-twitter,.fa-facebook-f,.fa-envelope {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.topVisual,.Cuting,.Shampoo,.Color {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.Reserve {
+    width: 100%;
+    height: 97vh;
+    position: relative;
+}
+
+#scroll {
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+    animation: updown 1.5s infinite linear;
+    
+}
+
+@keyframes updown {
+  from { bottom: 80px; }
+  from { bottom: 100px; } 
+}
+
+
+.topVisual-bar {
+    opacity: .5;
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    position: fixed;
+}
+
+.topVisual-bar2 {
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 39%;
+    z-index: 2;
+}
+
+#Logo {
+    width: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding-left: 10px;
+    left: 50%;
+    top: 45%;
+    z-index: 2;
+}
+
+#R-Logo {
+    width: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding-left: 10px;
+    left: 50%;
+    top: 5%;
+    z-index: 2;
+}
+
+.text-Box {
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 200px;
+    left: 50%;
+}
+
+.bar-left {
+    float: left;
+}
+
+
+.bar-right {
+    float: right;
+}
+
+.bar-left2 {
+    float: left;
+    margin-left: -7px;
+}
+
+
+.bar-right2 {
+    float: right;
+    margin-right: -7px;
+}
+
+.one {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/1-long.png");
+    background-size: cover;
+    display: inline-block;
+    transition: 1s;
+}
+
+
+.one-top {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/1-top.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.two {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/3-long.png");
+    background-size: cover;
+    display: inline-block;
+    transition: 1s;
+    
+}
+
+.two-top {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/3-top.png");
+    background-size: cover;
+    display: inline-block;
+    
+}
+
+.three {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/5-long.png");
+    background-size: cover;
+    display: inline-block;
+    transition: 1s;
+}
+
+.three-top {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/5-top.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.four {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/6-long.png");
+    background-size: cover;
+    display: inline-block;
+    transition: 1s;
+}
+
+.four-top {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/6-top.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.one-shampoo {
+    width: 250px;
+    height: 315px;
+    background-image: url("img/1-shampoo.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.two-shampoo {
+    width: 250px;
+    height: 310px;
+    background-image: url("img/3-shampoo.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.three-shampoo {
+    width: 250px;
+    height: 310px;
+    background-image: url("img/5-shampoo.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.four-shampoo {
+    width: 250px;
+    height: 315px;
+    background-image: url("img/6-shampoo.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.one-color {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/1-color.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.two-color {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/3-color.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.three-color{
+    width: 250px;
+    height: 300px;
+    background-image: url("img/5-color.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.four-color {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/6-color.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.one-reserve {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/1-reserve.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.two-reserve {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/3-reserve.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.three-reserve{
+    width: 250px;
+    height: 300px;
+    background-image: url("img/5-reserveb.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.four-reserve {
+    width: 250px;
+    height: 300px;
+    background-image: url("img/6-reserve.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+#copyright {
+    position: absolute;
+    display: inline-block;
+    font-size: 10px;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 0;
+}
