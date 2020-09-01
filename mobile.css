@@ -1,240 +1,66 @@
 @charset "UTF-8";
-body {
-    overflow-x: hidden;
+.one,.one-top,.one-color,.one-shampoo,.one-reserve {
+    width: 150px;
+    height: 200px;
 }
 
-h1 {
-    font-family: "Avenir Next";
-    font-weight: Medium;
-    font-size: 70px;
-    line-height: 1px;
+.two,.two-top,.two-color,.two-shampoo,.two-reserve {
+    width: 150px;
+    height: 200px;
 }
 
-p {
-    width: 400px;
-    font-family: "游ゴシック体";
-    letter-spacing: .1em;
-    line-height: 10px;
-    margin-top: -20px;
+.three,.three-top,.three-color,.three-shampoo,.three-reserve {
+    width: 150px;
+    height: 200px;
 }
 
+.four,.four-top,.four-color,.four-shampoo,.four-reserve {
+    width: 150px;
+    height: 200px;
+}
+
+@media screen and (max-width:700px) {
+.one,.one-top,.one-color,.one-shampoo,.one-reserve {
+    width: 50px;
+    height: 70px;
+}
+
+.two,.two-top,.two-color,.two-shampoo,.two-reserve {
+    width: 50px;
+    height: 70px;
+}
+
+.three,.three-top,.three-color,.three-shampoo,.three-reserve {
+    width: 50px;
+    height: 70px;
+}
+
+.four,.four-top,.four-color,.four-shampoo,.four-reserve {
+    width: 50px;
+    height: 70px;
+} 
     
-.topVisual-bar {
-    width: 80%;
-    height: 300px;
-    padding-right: 25px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    position: fixed;
-}
-
-.topVisual-bar2 {
-    width: 80%;
-    height: 300px;
-    padding-right: 25px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    z-index: 2;
-}
-
 #Logo {
-    width: 40%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    padding-left: 10px;
-    left: 50%;
-    top: 45%;
+    width: 70%;
 }
 
 #R-Logo {
-    width: 40%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    padding-left: 10px;
-    left: 50%;
-    top: 30%;
-    z-index: 2;
+    width: 70%;
+} 
+    
+h1 {
+    font-family: "Avenir Next";
+    font-weight: Medium;
+    font-size: 60px;
+    line-height: 10px;
 }
-
+    
 .text-Box {
-    position: absolute;
-    text-align: center;
-    transform: translate(-50%,-50%);
-    top: 200px;
-    left: 50%;
+        width: 100%;
 }
-
-.bar-left {
-    float: none;
-    margin-top: 13%;
-}
-
-
-.bar-right {
-    float: none;
-    margin-bottom: 40px;
-}
-
-.bar-left2 {
-    float: none;
-    margin-left: 0px;
-    margin-top: -2.5%;
-}
-
-
-.bar-right2 {
-    float: none;
-    margin-right: 0px;
-    margin-top: 15%;
-}
-
-.one {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 15%;
-}
-
-.one-top {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 15%;
-}
-
-.two {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-}
-
-.two-top {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-}
-
-.three {
-    width: 100px;
-    height: 150px;
-    margin-left: 15%;
-}
-
-.three-top {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 14%;
-}
-
-.four {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-}
-
-.four-top {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-}
-
-
-.one-shampoo {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 14%;
-    margin-top: 15%;
-}
-
-.two-shampoo {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-top: 15%;
-}
-
-.three-shampoo {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 14%;
-}
-
-.four-shampoo {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-}
-
-.one-color {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 14%;
-}
-
-.two-color {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-top: 16%;
-}
-
-.three-color{
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 14%;
-}
-
-.four-color {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-}
-
-.one-reserve {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-top: 16%;
-    margin-left: 14%;
-}
-
-.two-reserve {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-top: 16%;
-}
-
-.three-reserve{
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-top: -16%;
-    margin-left: 14%;
-}
-
-.four-reserve {
-    width: 100px;
-    height: 150px;
-    display: inline-block;
-    margin-top: -16%;
-}
-
-#copyright {
-    width: 230px;
-    position: absolute;
-    display: inline-block;
-    font-size: 10px;
-    transform: translate(-50%);
-    left: 50%;
-    bottom: 0;
+    
+    .text-Box p {
+        width: 100%;
+        font-size: 12px;
+}    
 }

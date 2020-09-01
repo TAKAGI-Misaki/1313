@@ -1,5 +1,20 @@
 // JavaScript Document
 $(function(){ 
+    
+$(window).load(function () {
+// 処理
+    $('#wrapper').fadeIn();
+    $('#load').fadeOut();
+    
+　setTimeout(function(){
+     
+          // 遅延させてフェードイン
+         $('.topVisual-bar').animate({ opacity: 0.5}, { duration: 1100, easing: 'swing'});
+         $('.topVisual-bar2').animate({ opacity: 1}, { duration: 1100, easing: 'swing'});
+     
+},400);    
+    
+});    
 
     //fadeIn
     $(window).on('load scroll',function(){
